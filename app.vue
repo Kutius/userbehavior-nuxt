@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'Vitesse Nuxt 3',
+  title: 'UserBehavior',
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',
