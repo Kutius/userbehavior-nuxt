@@ -4,9 +4,7 @@
 			v-for="item in maps"
 			:key="item.path"
 			:href="item.path"
-			font-medium
-			px-2
-			py-1
+			class="font-medium px-2 py-1"
 		>
 			{{ item.name }}
 		</a>
