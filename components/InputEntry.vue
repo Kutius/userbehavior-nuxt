@@ -31,7 +31,7 @@ const connect = async () => {
 			@keydown.enter="go"
 		/>
 		<div>
-			<button m-3 text-sm btn :disabled="!name" @click="connect">GO</button>
+			<button m-3 text-sm btn :disabled="!name" @click="go">GO</button>
 		</div>
 	</div>
 </template>
