@@ -10,5 +10,9 @@
       </template>
     </Suspense>
     <InputEntry />
+    <InputEntry />
+    <InputEntry />
+    <InputEntry />
+    <InputEntry />
   </div>
 </template>
