@@ -1,5 +1,5 @@
 <template>
-	<nav flex gap-4 items-center h-full font-sans>
+	<nav lg:flex gap-4 items-center h-full font-sans hidden>
 		<a
 			v-for="item in maps"
 			:key="item.path"
