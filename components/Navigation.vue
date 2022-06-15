@@ -17,6 +17,7 @@ const asideStore = useAsideStore()
 				hover:rotate-135
 				@click="asideStore.toggleMenu"
 			/>
+
 			<div flex="~ 1" lg:justify-start justify-center>
 				<Logos />
 			</div>
