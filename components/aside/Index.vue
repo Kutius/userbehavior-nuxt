@@ -6,6 +6,7 @@ const asideStore = useAsideStore()
 	<aside fixed z-50 lg:z-0 lg:static>
 		<!-- mobile -->
 		<div h-full overflow-auto lg:overflow-visible>
+			<!-- blur layer -->
 			<Transition name="fade">
 				<div
 					v-if="asideStore.menuVisibility"
@@ -32,11 +33,10 @@ const asideStore = useAsideStore()
 					h-full
 					overflow-auto
 					pointer-events-auto
-					min-h-fill-available
+					min-h-screen
 					border-r
-					w-base
 				>
-					vlankasdasdasd
+					<AsideNav />
 				</div>
 			</Transition>
 		</div>
