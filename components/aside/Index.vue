@@ -4,37 +4,24 @@ const asideStore = useAsideStore()
 
 <template>
 	<aside fixed z-50 lg:z-0 lg:static>
-		<!-- mobile -->
 		<div h-full overflow-auto lg:overflow-visible>
 			<!-- blur layer -->
 			<Transition name="fade">
 				<div
 					v-if="asideStore.menuVisibility"
 					@click.stop="asideStore.toggleMenu"
-					fixed
-					top-18
-					left-0
-					z-0
-					w-full
-					h-full
-					pointer-events-auto
-					backdrop-blur-lg
-					lg:hidden
+					class="fixed top-18 left-0 z-0 w-full h-full pointer-events-auto backdrop-blur-lg lg:hidden"
 				/>
 			</Transition>
+			<!-- mobile -->
 			<Transition name="slide-from-left-to-left">
 				<div
 					v-show="asideStore.menuVisibility"
+					class="fixed top-18 left-0 bg-dark7 w-auto h-full min-w-2/5 min-h-screen"
 					lg:hidden
-					fixed
-					top-18
-					left-0
-					w-auto
-					h-full
 					overflow-auto
 					pointer-events-auto
-					min-h-screen
-					border-r
+					border="r gray7"
 				>
 					<AsideNav />
 				</div>
@@ -44,7 +31,7 @@ const asideStore = useAsideStore()
 </template>
 
 <style scoped>
-/* aside nav style setup */
+/* fade */
 .fade-enter-active,
 .fade-leave-active {
 	transition: all 0.2s ease-out;
@@ -53,6 +40,7 @@ const asideStore = useAsideStore()
 .fade-leave-to {
 	opacity: 0;
 }
+/* slide */
 .slide-from-left-to-left-enter-active,
 .slide-from-left-to-left-leave-active {
 	transition: all 0.2s ease-out;

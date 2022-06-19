@@ -10,11 +10,9 @@ const { menus } = useMenus()
 			max-w-sm
 			overflow-y-auto
 			p-4
-			gap-4
+			gap-2
 		>
 			<template v-for="menu in menus" :key="menu.name">
-				<AsideNavItem :name="menu.name" :path="menu.path" />
-				<AsideNavItem :name="menu.name" :path="menu.path" />
 				<AsideNavItem :name="menu.name" :path="menu.path" />
 			</template>
 		</nav>

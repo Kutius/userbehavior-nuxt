@@ -7,26 +7,21 @@ const asideStore = useAsideStore()
 </script>
 
 <template>
-	<nuxt-link :to="props.path">
+	<nuxt-link :to="props.path" class="text-left">
 		<span
-			text="base gray5"
+			class="select-block relative inline-flex items-center justify-start rounded-md px-2 py-1"
+			text="base gray5 dark:gray4"
 			font="sans medium"
-			relative
-			inline-flex
-			items-center
-			justify-start
-			rounded-md
-			px-2
-			py-1
+			@click="asideStore.toggleMenu"
 		>
-			<span @click="asideStore.toggleMenu">{{ props.name }}</span>
+			<span>{{ props.name }}</span>
 		</span>
 	</nuxt-link>
 </template>
 
 <style scoped>
-.router-link-active span {
+.router-link-active .select-block {
 	color: #fff;
-	@apply bg-green-500 dark:bg-gray-700;
+	@apply bg-green-500 dark:bg-sky-800;
 }
 </style>
