@@ -3,13 +3,14 @@ const props = defineProps<{
 	name: string
 	path: string
 }>()
+const asideStore = useAsideStore()
 </script>
 
 <template>
 	<nuxt-link :to="props.path">
 		<span
 			text="base gray5"
-			font='sans medium'
+			font="sans medium"
 			relative
 			inline-flex
 			items-center
@@ -18,8 +19,7 @@ const props = defineProps<{
 			px-2
 			py-1
 		>
-		<span>{{ props.name }}</span>
-			
+			<span @click="asideStore.toggleMenu">{{ props.name }}</span>
 		</span>
 	</nuxt-link>
 </template>
@@ -27,6 +27,6 @@ const props = defineProps<{
 <style scoped>
 .router-link-active span {
 	color: #fff;
-	@apply bg-green-500 dark:bg-gray-700
+	@apply bg-green-500 dark:bg-gray-700;
 }
 </style>
