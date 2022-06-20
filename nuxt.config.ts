@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
   },
-  typescript:{
-    shim: false
-  }
+  typescript: {
+    shim: false,
+  },
 })

@@ -7,6 +7,9 @@
     "start": "node .output/server/index.mjs",
     "lint": "eslint ."
   },
+  "dependencies": {
+    "node-ssh": "^12.0.4"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.1",
     "@iconify-json/carbon": "^1.1.5",
@@ -20,8 +23,5 @@
     "nuxt": "^3.0.0-rc.4",
     "pinia": "^2.0.14",
     "typescript": "^4.7.4"
-  },
-  "dependencies": {
-    "node-ssh": "^12.0.4"
   }
 }

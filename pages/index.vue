@@ -1,6 +1,5 @@
 <template>
   <div>
-    <!-- <Logos mb-6 /> -->
     <Suspense>
       <PageView />
       <template #fallback>
@@ -9,10 +8,6 @@
         </div>
       </template>
     </Suspense>
-    <InputEntry />
-    <InputEntry />
-    <InputEntry />
-    <InputEntry />
     <InputEntry />
   </div>
 </template>
