@@ -10,7 +10,7 @@ const asideStore = useAsideStore()
 	<nuxt-link :to="props.path" class="text-left">
 		<span
 			class="select-block relative inline-flex items-center justify-start rounded-md px-2 py-1"
-			text="base gray5 dark:gray4"
+			text="base gray6 dark:gray3"
 			font="sans medium"
 			@click="asideStore.toggleMenu"
 		>

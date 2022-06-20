@@ -17,11 +17,11 @@ const asideStore = useAsideStore()
 			<Transition name="slide-from-left-to-left">
 				<div
 					v-show="asideStore.menuVisibility"
-					class="fixed top-18 left-0 bg-dark7 w-auto h-full min-w-2/5 min-h-screen"
+					class="fixed top-18 left-0 bg-gray2 dark:bg-dark7 w-auto h-full min-w-2/5 min-h-screen"
 					lg:hidden
 					overflow-auto
 					pointer-events-auto
-					border="r gray7"
+					border="r gray3 dark:gray7"
 				>
 					<AsideNav />
 				</div>
