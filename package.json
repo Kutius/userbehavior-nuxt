@@ -18,7 +18,7 @@
     "@pinia/nuxt": "^0.1.9",
     "@types/ssh2": "^0.5.52",
     "@unocss/nuxt": "^0.39.3",
-    "@vueuse/nuxt": "^8.7.4",
+    "@vueuse/nuxt": "^8.7.5",
     "eslint": "^8.18.0",
     "nuxt": "^3.0.0-rc.4",
     "pinia": "^2.0.14",
