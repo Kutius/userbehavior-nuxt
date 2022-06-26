@@ -4,8 +4,9 @@
 
 <h2 align="center">
 <a href="#">UserBehavior</a> Interface by Nuxt 3
+<br>
+<a href="https://www.oscs1024.com/project/oscs/Gaaraly/userbehavior-nuxt?ref=badge_small" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/Gaaraly/userbehavior-nuxt.svg?size=small"/>
 </h2><br>
-
 
 <p align="center">
 🚧developing...🚧
@@ -19,3 +20,7 @@ cd userbehavior-nuxt
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 pnpm dev
 ```
+
+### License
+
+[MIT](LICENSE)
