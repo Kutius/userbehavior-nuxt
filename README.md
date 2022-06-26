@@ -5,7 +5,7 @@
 <h2 align="center">
 <a href="#">UserBehavior</a> Interface by Nuxt 3
 <br>
-<a href="https://www.oscs1024.com/project/oscs/Gaaraly/userbehavior-nuxt?ref=badge_small" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/Gaaraly/userbehavior-nuxt.svg?size=small"/>
+<a href="https://www.oscs1024.com/project/oscs/Gaaraly/userbehavior-nuxt?ref=badge_small" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/Gaaraly/userbehavior-nuxt.svg?size=small"/></a>
 </h2><br>
 
 <p align="center">
