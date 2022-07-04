@@ -1,7 +1,7 @@
 <template>
   <div w-full>
     <Navigation />
-    <main class="pb-20 px-10 text-center">
+    <main class="pb-20 lg:px-10 text-center px-6">
       <Aside />
       <slot />
       <Footer />
