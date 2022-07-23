@@ -3,7 +3,7 @@ const asideStore = useAsideStore()
 </script>
 
 <template>
-  <header h-18 sticky top-0 w-full bg="dark:dark white !op70" backdrop-blur-lg>
+  <header h-18 sticky top-0 w-full bg="dark:dark white !op80" backdrop-blur-lg>
     <div flex items-center h-full px-6 mx-auto max-w-7xl>
       <!-- TODO: nav aside -->
       <button
