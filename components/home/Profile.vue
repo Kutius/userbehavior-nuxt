@@ -38,7 +38,7 @@
         <div i-carbon-logo-github />
         Star on Github
       </nuxt-link>
-      <nuxt-link to="/" class="btn">
+      <nuxt-link to="/processing-log" class="btn">
         Processing
       </nuxt-link>
     </div>
