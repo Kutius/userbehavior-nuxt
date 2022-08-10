@@ -13,7 +13,10 @@ const { menus } = useMenus()
       gap-2
     >
       <template v-for="menu in menus" :key="menu.name">
-        <AsideNavItem :name="menu.name" :path="menu.path" />
+        <AsideNavItem
+          :name="menu.name" :path="menu.path"
+          hover="bg-gray3 dark:bg-dark4 op80 rounded"
+        />
       </template>
     </nav>
   </div>
