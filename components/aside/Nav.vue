@@ -15,7 +15,7 @@ const { menus } = useMenus()
       <template v-for="menu in menus" :key="menu.name">
         <AsideNavItem
           :name="menu.name" :path="menu.path"
-          hover="bg-gray3 dark:bg-dark4 op80 rounded"
+          hover="bg-gray3 dark:bg-dark3 op80 rounded"
         />
       </template>
     </nav>
