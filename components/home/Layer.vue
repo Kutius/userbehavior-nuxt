@@ -5,7 +5,7 @@ const { isHovered } = defineProps<{ isHovered: boolean }>()
 <template>
   <div
     pointer-events-none
-    absolute top-20 left-0
+    absolute left-0
     w-full h-full z--1
     overflow-hidden
     :style="!isHovered ? 'display:none' : ''"
@@ -20,7 +20,7 @@ const { isHovered } = defineProps<{ isHovered: boolean }>()
 
 <style scoped>
 .line-1 {
-  top: 0%;
+  top: 20%;
   left: -10%;
   transform: rotate(4deg) translateZ(0px);
   transform-origin: left center;
@@ -28,7 +28,7 @@ const { isHovered } = defineProps<{ isHovered: boolean }>()
   animation: l1 0.4s ease-in both;
 }
 .line-2{
-  top: 72%;
+  top: 92%;
   left: -18%;
   transform: rotate(-45deg) scaleX(1) translateZ(0px);
   transform-origin: left center;
